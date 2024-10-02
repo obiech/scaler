@@ -89,7 +89,7 @@ To run the application locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone [<repository_url>](https://github.com/obiech/scaler.git)
     ```
 2. Navigate to the project directory:
 
@@ -107,6 +107,9 @@ The application includes widget tests to ensure the functionality of key compone
     bash run_test.sh
     ```
 
+## 2. Project Structure
+
+```bash
 lib/
   ├── core/                            # Contains essential utility classes and services used throughout the app.
         ├── api_client/                # Contains tools and configurations for handling API requests and responses.
@@ -123,6 +126,9 @@ lib/
             ├── repo/                  # Data repository layer, managing data sources and data manipulation for this feature.
             ├── screens/               # UI screens related to this feature, presenting user interfaces.
             └── widgets/               # Reusable widgets specific to this feature, designed for modular use.
+```
+
+
 
 
 
