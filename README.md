@@ -72,6 +72,12 @@ The application follows the **Clean Architecture** principle, which promotes sep
 - **Benefits**:
   - Simplifies navigation and makes the app's structure clearer to other developers.
   - Facilitates easier handling of navigation events, such as back navigation.
+- **Note**: I am very good at go router and auto router but considering this is a 2 screen project. I decided to use named routes.
+
+## Theming
+
+- **Note**: This is a two-screen application, and due to time constraints, comprehensive theming has not been implemented. However, I am well-versed in best practices for applying themes in scalable applications. In this repository, you can find examples of my work from previous projects: [Sample Theme Repository](https://github.com/obiech/storefront/tree/main/lib/res).
+
 
 ## Testing Strategy
 
@@ -83,6 +89,7 @@ The application follows the **Clean Architecture** principle, which promotes sep
 
 ### Unit Testing
 - Unit tests are implemented for business logic in the domain layer, ensuring that use cases and entities function as intended.
+- **Note**: Test coverage can be found in the coverage folder.
 
 ## Setup Instructions
 To run the application locally, follow these steps:
@@ -127,11 +134,6 @@ lib/
             ├── screens/               # UI screens related to this feature, presenting user interfaces.
             └── widgets/               # Reusable widgets specific to this feature, designed for modular use.
 ```
-
-
-
-
-
 
 
 ## Contributing
