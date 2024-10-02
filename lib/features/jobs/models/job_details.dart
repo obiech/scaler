@@ -20,7 +20,7 @@ class JobDetails extends Equatable {
   /// Creates a [JobDetails] instance from JSON data.
   factory JobDetails.fromJson(Map<String, dynamic> json) {
     return JobDetails(
-      id: json['uuid'],
+      id: json['uuid'] ?? '',
       companyName: json['company']?['name'] ?? '',
       category: json['company']?['industry'] ?? '',
       logo: json['company']?['logo'] ?? '',
