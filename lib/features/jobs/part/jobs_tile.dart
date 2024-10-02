@@ -66,7 +66,7 @@ class _JobTile extends StatelessWidget {
           Align(
             alignment: Alignment.bottomRight,
             child: Text(
-              '4 hrs ago',
+              timeAgo(job.createdAt),
               style: TextStyle(
                 color: const Color(0xffA09DA1),
                 fontSize: 11.sp,
