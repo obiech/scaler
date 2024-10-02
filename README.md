@@ -1,5 +1,5 @@
-# Create the README content as a Markdown string
-readme_content = """
+
+
 # Jobs Application
 
 ## Table of Contents55
