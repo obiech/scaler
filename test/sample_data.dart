@@ -1,3 +1,4 @@
+// Project imports:
 import 'package:scaler/features/jobs/models/job_details.dart';
 import 'package:scaler/features/jobs/models/job_post.dart';
 

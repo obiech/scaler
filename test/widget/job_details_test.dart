@@ -1,15 +1,19 @@
-import 'package:bloc_test/bloc_test.dart';
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
+
+// Project imports:
 import 'package:scaler/core/models/app_error.dart';
 import 'package:scaler/features/jobs/bloc/job_bloc.dart';
 import 'package:scaler/features/jobs/screens/job_info.dart';
 import 'package:scaler/features/jobs/widgets/error_box.dart';
 import 'package:scaler/features/shimmers/jobs_info_shimmer.dart';
-
 import '../sample_data.dart';
 
 class MockJobBloc extends MockBloc<JobEvent, JobState> implements JobBloc {}

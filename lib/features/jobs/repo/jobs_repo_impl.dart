@@ -1,6 +1,9 @@
 // ignore_for_file: avoid_dynamic_calls
 
+// Package imports:
 import 'package:dartz/dartz.dart';
+
+// Project imports:
 import 'package:scaler/core/api_client/client.dart';
 import 'package:scaler/core/models/app_error.dart';
 import 'package:scaler/features/jobs/models/job_details.dart';

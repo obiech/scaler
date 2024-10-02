@@ -1,5 +1,10 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+// Project imports:
 import 'package:scaler/features/jobs/screens/job_listing.dart';
 import 'package:scaler/features/resume/resume_tab.dart';
 import 'package:scaler/features/settings/settings_tab.dart';

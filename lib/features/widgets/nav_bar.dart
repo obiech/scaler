@@ -1,6 +1,11 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
+// Project imports:
 import 'package:scaler/core/models/bottom_nav_bar_item.dart';
 
 /// A customizable bottom navigation bar widget that displays a list of items
@@ -66,7 +71,6 @@ class BottomBarAppState extends State<BottomBarApp> {
 /// parent widget to handle tab selection.
 class _TabItemBottomBar extends StatefulWidget {
   const _TabItemBottomBar({
-    super.key,
     required this.item,
     required this.index,
     required this.onPressed,

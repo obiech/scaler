@@ -1,5 +1,10 @@
-import 'package:cached_network_image/cached_network_image.dart';
+// Flutter imports:
+
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 /// A stateless widget that displays an image with caching and error handling.

@@ -1,5 +1,7 @@
 // Package imports:
 import 'package:dio/dio.dart';
+
+// Project imports:
 import 'package:scaler/core/api_client/client.dart';
 
 // DioClient class extends ApiClient, specializing in Response types.

@@ -1,14 +1,18 @@
+// Package imports:
 import 'package:bloc_test/bloc_test.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:mocktail/mocktail.dart';
+
+// Project imports:
 import 'package:scaler/core/models/app_error.dart';
 import 'package:scaler/features/jobs/bloc/job_bloc.dart';
-// import 'package:scaler/features/jobs/models/job_post.dart';
 import 'package:scaler/features/jobs/repo/jobs_repo.dart';
-
 import '../sample_data.dart';
+
+// import 'package:scaler/features/jobs/models/job_post.dart';
+
 
 class MockJobsRepo extends Mock implements JobsRepo {}
 

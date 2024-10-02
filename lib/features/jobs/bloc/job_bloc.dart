@@ -1,5 +1,8 @@
+// Package imports:
 import 'package:equatable/equatable.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
+
+// Project imports:
 import 'package:scaler/core/models/app_error.dart';
 import 'package:scaler/features/jobs/models/job_details.dart';
 import 'package:scaler/features/jobs/models/job_post.dart';

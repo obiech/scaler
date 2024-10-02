@@ -1,6 +1,11 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+// Project imports:
 import 'package:scaler/core/helpers/time_ago.dart';
 import 'package:scaler/features/jobs/bloc/job_bloc.dart';
 import 'package:scaler/features/jobs/models/job_post.dart';

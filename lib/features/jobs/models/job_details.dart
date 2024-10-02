@@ -1,4 +1,7 @@
+// Package imports:
 import 'package:equatable/equatable.dart';
+
+// Project imports:
 import 'package:scaler/core/helpers/extract_values.dart';
 
 /// Represents the details of a job posting.

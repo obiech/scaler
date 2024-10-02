@@ -1,3 +1,4 @@
+// Package imports:
 import 'package:equatable/equatable.dart';
 
 /// Represents a job post with various details such as company name, job title, etc.

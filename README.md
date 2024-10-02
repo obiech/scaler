@@ -78,6 +78,27 @@ The application follows the **Clean Architecture** principle, which promotes sep
 
 - **Note**: This is a two-screen application, and due to time constraints, comprehensive theming has not been implemented. However, I am well-versed in best practices for applying themes in scalable applications. In this repository, you can find examples of my work from previous projects: [Sample Theme Repository](https://github.com/obiech/storefront/tree/main/lib/res).
 
+## Project Structure
+
+```bash
+lib/
+  ├── core/                            # Contains essential utility classes and services used throughout the app.
+        ├── api_client/                # Contains tools and configurations for handling API requests and responses.
+        ├── di/                        # Dependency injection setup to manage service lifecycles and provide instances.
+        ├── extensions/                # Helper extensions that add functionality to existing classes.
+        ├── helpers/                   # General-purpose helper functions and classes for common tasks.
+        └── models/                    # Contains models used throughout the application, such as AppError.
+        
+  └── features/                        # Feature modules, each representing a distinct area of functionality in the app.
+         ├── feature_1/                # A specific feature module that encapsulates related functionality.
+            ├── bloc/                  # Contains the Bloc implementation for state management specific to this feature.
+            ├── models/                # Feature-specific models used for data representation and transfer.
+            ├── part/                  # Contains private widgets that are used internally within the feature.
+            ├── repo/                  # Data repository layer, managing data sources and data manipulation for this feature.
+            ├── screens/               # UI screens related to this feature, presenting user interfaces.
+            └── widgets/               # Reusable widgets specific to this feature, designed for modular use.
+```
+
 
 ## Testing Strategy
 
@@ -107,33 +128,15 @@ To run the application locally, follow these steps:
 4. Run the application:
     ```bash
     flutter run
-    ```
-
-The application includes widget tests to ensure the functionality of key components. To run the tests, 1. Run the test:
+    ``` 
+5. Run the test:
     ```bash
     bash run_test.sh
     ```
-
-## 2. Project Structure
-
-```bash
-lib/
-  ├── core/                            # Contains essential utility classes and services used throughout the app.
-        ├── api_client/                # Contains tools and configurations for handling API requests and responses.
-        ├── di/                        # Dependency injection setup to manage service lifecycles and provide instances.
-        ├── extensions/                # Helper extensions that add functionality to existing classes.
-        ├── helpers/                   # General-purpose helper functions and classes for common tasks.
-        └── models/                    # Contains models used throughout the application, such as AppError.
-        
-  └── features/                        # Feature modules, each representing a distinct area of functionality in the app.
-         ├── feature_1/                # A specific feature module that encapsulates related functionality.
-            ├── bloc/                  # Contains the Bloc implementation for state management specific to this feature.
-            ├── models/                # Feature-specific models used for data representation and transfer.
-            ├── part/                  # Contains private widgets that are used internally within the feature.
-            ├── repo/                  # Data repository layer, managing data sources and data manipulation for this feature.
-            ├── screens/               # UI screens related to this feature, presenting user interfaces.
-            └── widgets/               # Reusable widgets specific to this feature, designed for modular use.
-```
+6. Build app:
+    ```bash
+    bash build.sh
+    ```
 
 
 ## Contributing

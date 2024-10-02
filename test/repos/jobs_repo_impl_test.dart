@@ -1,11 +1,14 @@
 // import 'dart:convert';
+
+// Package imports:
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
+
+// Project imports:
 import 'package:scaler/core/api_client/client.dart';
 import 'package:scaler/features/jobs/repo/jobs_repo_impl.dart';
-
 import '../sample_data.dart';
 
 class MockApiClient extends Mock implements ApiClient {}

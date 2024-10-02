@@ -1,8 +1,14 @@
+// Dart imports:
 import 'dart:io';
 
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
+
+// Project imports:
 import 'package:scaler/app.dart';
 import 'package:scaler/app_providers.dart';
 import 'package:scaler/core/di/injection_container.dart' as di;
